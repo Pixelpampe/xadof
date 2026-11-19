@@ -74,8 +74,6 @@ button:active{transform:scale(.97)}
 }
 #tbl{--c-bg:#1c1c1b;--c-ink:#ece9e1;--c-dim:#8f8d86;--c-line:#3d3d3a;
   margin-top:14px;background:var(--c-bg);color:var(--c-ink);border:1px solid var(--body-edge);border-radius:12px;padding:10px 10px 4px}
-#tbl .ct{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;font-weight:500;margin:0 2px 6px}
-#tbl .ct span:last-child{font-weight:400;color:var(--c-dim);font-size:12px}
 #tbl table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px}
 #tbl th,#tbl td{padding:5px 2px;text-align:center;white-space:nowrap;border-top:1px solid var(--c-line)}
 #tbl thead th{border-top:none;font-weight:500;padding-bottom:6px}
@@ -94,16 +92,13 @@ button:active{transform:scale(.97)}
   html,body{background:#fff!important;padding:0!important;margin:0}
   main{max-width:none;margin:0}
   main>*:not(#tbl){display:none!important}
-  #tbl{width:90mm;margin:0;padding:2.5mm 2.5mm 1mm;border-radius:2mm;border:none;
+  #tbl{width:63mm;margin:0;padding:1.4mm 1.75mm .7mm;border-radius:1.4mm;border:none;
     -webkit-print-color-adjust:exact;print-color-adjust:exact;break-inside:avoid}
-  #tbl .ct{font-size:7.5pt;margin:0 .5mm 1mm}
-  #tbl .ct span:last-child{font-size:6.5pt}
-  #tbl table{font-size:7pt}
-  #tbl th,#tbl td{padding:.8mm .3mm}
-  #tbl thead th{padding-bottom:1mm}
+  #tbl table{font-size:4.9pt}
+  #tbl th,#tbl td{padding:.56mm .21mm}
+  #tbl thead th{padding-bottom:.7mm}
   #tbl{--c-bg:#000;--c-ink:#fff;--c-dim:#fff;--c-line:#fff;background:#000;color:#fff}
-  #tbl th,#tbl td{border-top-width:.15mm;font-weight:500}
-  #tbl .ct span:last-child{color:#fff}
+  #tbl th,#tbl td{border-top-width:.12mm;font-weight:500}
   #tbl .yh span{background:#fff;color:#000}
   #tbl tr.y td:first-child{color:#fff;font-weight:700}
   #tbl td.yy{background:#fff;color:#000;font-weight:700}
@@ -161,7 +156,6 @@ button:active{transform:scale(.97)}
 </div>
 </div>
 <section id="tbl" aria-label="Schärfentiefe-Tabelle">
-<div class="ct"><span>Olympus XA</span><span>Schärfentiefe in m</span></div>
 <table><thead><tr id="tbh"></tr></thead><tbody id="tbb"></tbody></table>
 </section>
 <button id="printBtn">Für die Kamerarückseite drucken</button>
